@@ -3,10 +3,8 @@ package testCases.viaCep;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import testBases.viaCep.CepValidoTestBase;
-import testBases.viaCep.CepValidoTestBase;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.equalTo;
 
 public class GetCepValidoTestCase extends CepValidoTestBase {
 

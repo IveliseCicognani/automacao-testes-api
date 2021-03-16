@@ -1,12 +1,12 @@
-testCases/viaCep/GetCepInvalidoTestCase.java
- testCases.viaCep.GetCepInvalidoTestCase
+testCases/viaCep/GetCepInexistenteTestCase.java
+ testCases.viaCep.GetCepInexistenteTestCase
 testCases/viaCep/GetCepValidoTestCase.java
  testCases.viaCep.GetCepValidoTestCase
 testCases/viaCep/GetExtraTestCase.java
  testCases.viaCep.GetExtraTestCase
-testCases/viaCep/GetCepInexistenteTestCase.java
- testCases.viaCep.GetCepInexistenteTestCase
-testCases/viaCep/GetTestContratoTestCase.java
- testCases.viaCep.GetTestContratoTestCase
 testCases/viaCep/ContentTypeTest.java
  testCases.viaCep.ContentTypeTest
+testCases/viaCep/GetCepInvalidoTestCase.java
+ testCases.viaCep.GetCepInvalidoTestCase
+testCases/viaCep/ContractTest.java
+ testCases.viaCep.ContractTest

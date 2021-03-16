@@ -1,11 +1,11 @@
 package testCases.viaCep;
 
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import testBases.viaCep.CepInvalidoTestBase;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.equalTo;
 
 public class GetCepInvalidoTestCase extends CepInvalidoTestBase {
 
@@ -21,11 +21,10 @@ public class GetCepInvalidoTestCase extends CepInvalidoTestBase {
                 .log().all()
                 .spec(responseSpec)
                 .assertThat()
+                .contentType(ContentType.HTML)
                 .body(containsString("Erro 400"),
                         containsString("Verifique a sua URL (Bad Request)"))
                 .extract()
                 .response();
-
-        System.out.println("Cep Inválido");
     }
 }
