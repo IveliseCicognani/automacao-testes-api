@@ -1,0 +1,10 @@
+testBases/viaCep/CepInexistenteTestBase.java
+ testBases.viaCep.CepInexistenteTestBase
+testBases/viaCep/CepExtraTestBase.java
+ testBases.viaCep.CepExtraTestBase
+testBases/viaCep/CepValidoTestBase.java
+ testBases.viaCep.CepValidoTestBase
+Utils/FileOperations.java
+ Utils.FileOperations
+testBases/viaCep/CepInvalidoTestBase.java
+ testBases.viaCep.CepInvalidoTestBase
