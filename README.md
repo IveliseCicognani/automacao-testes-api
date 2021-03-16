@@ -2,7 +2,7 @@
 
 ## Desenvolver Testes baseados nos cenários abaixo:
 
-## URL: https://viacep.com.br/ws/91060900/json
+URL: https://viacep.com.br/ws/91060900/json
 
 Cenário 1: Consulta CEP Válido
 Dado que o usuário insere um CEP válido
@@ -22,7 +22,7 @@ Então é retornado uma mensagem de erro
 ## Extras: 
 
 Criar um cenário que verifique o retorno do serviço abaixo:
-## URL: https://viacep.com.br/ws/RS/Gravatai/Barroso/json
+URL: https://viacep.com.br/ws/RS/Gravatai/Barroso/json
 
 
 
