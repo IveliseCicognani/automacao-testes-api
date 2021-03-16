@@ -1,6 +1,6 @@
-#Desafio API
+# Desafio API
 
-##Desenvolver Testes baseados nos cenários abaixo:
+## Desenvolver Testes baseados nos cenários abaixo:
 
 URL: https://viacep.com.br/ws/91060900/json
 
@@ -19,7 +19,7 @@ Dado que o usuário insere um CEP com formato inválido
 Quando o serviço é consultado
 Então é retornado uma mensagem de erro
 
-##Extras: 
+## Extras: 
 
 Criar um cenário que verifique o retorno do serviço abaixo:
 URL: https://viacep.com.br/ws/RS/Gravatai/Barroso/json
